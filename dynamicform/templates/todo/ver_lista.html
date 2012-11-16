@@ -1,0 +1,7 @@
+{%for campo in lista%}
+    {{campo.name}} <br>
+    {%for relacion in campo.todoitem_set.all%}
+        {{relacion.name}} <br>
+    {%endfor%}
+{%endfor%}
+

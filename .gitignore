@@ -23,3 +23,5 @@ lib64
 *.pot
 *.py[co]
 MANIFEST
+*.sql
+*.db
